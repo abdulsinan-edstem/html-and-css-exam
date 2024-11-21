@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    background-color:beige;
+    line-height: 1.5;
+}
+.navigation{
+    display: flex;
+    background-color: rgb(241, 166, 166);
+    color: red;
+    gap:60px
+
+}
+.icon{
+    width: 24px;
+    height:24px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(114, 108, 108);
+}
+.hero {
+   text-align: center;
+}
+.hero h1{
+    font-size: 36px;
+    color: firebrick;
+}
+.hero p{
+    margin-left:370px;
+    margin-top: -25px;
+    color: rgb(210, 107, 107);
+}
+.post-grids{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+}
+.my{
+
+    padding: 5px;
+    background-color: rgb(241, 166, 166);
+    border-radius:10px;
+    text-align: center;
+}
+footer{
+    margin: 10px;
+    margin-bottom: 0px;
+}
+aside {
+    margin-top:20px;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+    text-align: center;
+  }
+  .letter{
+    letter-spacing:2px;
+    word-spacing: 2px;
+  }
+  button{
+    margin:35px;
+    padding:10px 25px;
+    background-color: darkseagreen;
+    border-radius: 5px;
+    border: none;
+  }
+  .color{
+    background-color: azure;
+    padding:3px;
+    text-decoration: none;
+  }
